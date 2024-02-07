@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+body{
+    background: linear-gradient(90deg, #921fa9 0%, #fb441b 100%);
+}
+
+.container{
+    max-width: 375px;
+    margin: 0 auto;
+}
+
+.box{
+    height: 200px;
+    background-color: rgb(207, 150, 211);
+    margin-top: 50px;
+    border: 10px;
+    border-radius: 15px;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+.userphoto{
+    width: 100px;
+    height: 100px;
+    background-image: url("/1/img/photo_2024-02-07_15-44-44.jpg");
+    background-position: top 100px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50px;
+    border: none;
+    margin: auto;
+    margin-bottom: 10px;
+}
+.subtitle{
+    font-size: 20px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+.titles{
+    max-width: 270px;
+    text-align: center;
+}
+.title{
+    color: white;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.title_1{
+    color: white;
+    font-size: 20px;
+}
+
+.btn{
+    width: 375px;
+    height: 50px;
+    background-color:  rgb(207, 150, 211);
+    text-align: center;
+    border: blue solid 2px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+a{
+    color: white;
+}
